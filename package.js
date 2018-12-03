@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'djk:s3',
-	version: '1.0.0',
+	version: '1.0.1',
 	summary: 'Meteor AWS S3 cloud file interface with automatic recursion',
 	git: 'https://github.com/djkmiles/meteor-s3.git',
 	documentation: 'Readme.md'
