@@ -14,5 +14,6 @@ Package.onUse(function(api) {
 })
 
 Npm.depends({
-  'aws-sdk': '2.9.0'
+  'aws-sdk': '2.9.0',
+  'lodash': '4.17.4'
 })

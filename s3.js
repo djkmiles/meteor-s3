@@ -2,6 +2,7 @@
 
 const S3_BUCKET = 'graceplus'
 import AWS from 'aws-sdk/clients/s3'
+import _ from 'lodash'
 
 client = new AWS({
     accessKeyId: process.env.S3_ID || Meteor.settings.S3_ID,
